@@ -1,2 +1,8 @@
 # projeto-strata
- Projeto feito no curso de design web da Udemy
+Descrição do projeto:Projeto feiot no curso de web design da Udemy
+
+Acesse o link e teste o projeto:
+
+Para desenvolver esse projeto eu utilize:HTML5e CSS3
+
+Desafios que tive:
