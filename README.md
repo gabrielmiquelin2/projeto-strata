@@ -1,5 +1,5 @@
 # projeto-strata
-Descrição do projeto:Projeto feitp no curso de web design da Udemy
+Descrição do projeto:Projeto feito no curso de web design da Udemy
 
 Acesse o link e teste o projeto:
 
