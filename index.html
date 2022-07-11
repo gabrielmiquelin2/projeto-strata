@@ -20,7 +20,8 @@
   </head>
   <body>
        <header class="main-header">
-          <a href="index.html" class="main-header-link">
+
+          <a href="index.html" class="main-header-link imagem-link">
             <img src="imagens/avatar.jpg" alt="texto qualquer">
           </a>
           <h1 class="main-header-title">Trabalhos e projetos de <br><strong><a href="https://github.com/gabrielmiquelin2" target="_blank" class="main-header-link">Gabriel Miquelin</a></strong> uma <br>pessoa aleatória que <br> curte front-end e desenvolve <br> várias coisas relacionadas <br>retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a></h1>
@@ -41,49 +42,56 @@
       <section class="main-content-section">
 
               <h3>Recent Work</h3>
-                
-            <article class="recent-works-card">
-                    <a href="imagens/fulls/01.jpg"></a>
-                    <img src="imagens/fulls/01.jpg" alt="Carro numa rua pouco movimentada">
-                    <p class="recent-works-card-title">Magna sed consequat tempus</p>
-                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
-            </article>
 
-            <article class="recent-works-card">
-                    <a href="imagens/fulls/02.jpg"></a>
-                    <img src="imagens/fulls/02.jpg" alt="Carro numa rua pouco movimentada">
-                    <p class="recent-works-card-title">Ultricies lacinia interdum</p>
-                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
-            </article>
+            <div class="row">
 
-            <article class="recent-works-card">
-                  <a href="imagens/fulls/03.jpg"></a>
-                  <img src="imagens/fulls/03.jpg" alt="Carro numa rua pouco movimentada">
-                  <p class="recent-works-card-title">Tortor metus commodo</p>
-                  <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
-            </article>
+                    <div class="col-2">                            
+                            <article class="recent-works-card">
+                                 <a class="imagem-link" href="imagens/fulls/01.jpg"></a>
+                                 <img src="imagens/fulls/01.jpg" alt="Carro numa rua pouco movimentada">
+                                 <p class="recent-works-card-title">Magna sed consequat tempus</p>
+                                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
+                            </article>
 
-            <article class="recent-works-card">
-                  <a href="imagens/fulls/04.jpg"></a>
-                  <img src="imagens/fulls/04.jpg" alt="Carro numa rua pouco movimentada">
-                  <p class="recent-works-card-title">Quam neque phasellus</p>
-                  <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
-            </article>
+                            <article class="recent-works-card">
+                                 <a class="imagem-link" href="imagens/fulls/02.jpg"></a>
+                                 <img src="imagens/fulls/02.jpg" alt="Carro numa rua pouco movimentada">
+                                  <p class="recent-works-card-title">Ultricies lacinia interdum</p>
+                                  <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
+                            </article>
 
-            <article class="recent-works-card">
-                  <a href="imagens/fulls/05.jpg"></a>
-                  <img src="imagens/fulls/05.jpg" alt="Carro numa rua pouco movimentada">
-                  <p class="recent-works-card-title">Nunc enim commodo aliquet</p>
-                  <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
-            </article>
+                            <article class="recent-works-card">
+                                <a class="imagem-link" href="imagens/fulls/03.jpg"></a>
+                                <img src="imagens/fulls/03.jpg" alt="Carro numa rua pouco movimentada">
+                                <p class="recent-works-card-title">Tortor metus commodo</p>
+                                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
+                            </article>
+                    </div>         
 
-            <article class="recent-works-card">
-                <a href="imagens/fulls/06.jpg"></a>
-                <img src="imagens/fulls/06.jpg" alt="Carro numa rua pouco movimentada">
-                <p class="recent-works-card-title">Risus ornare lacinia</p>
-                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
-            </article>
-            
+                    <div class="col-2">
+                            <article class="recent-works-card">
+                                <a class="imagem-link" href="imagens/fulls/04.jpg"></a>
+                                <img src="imagens/fulls/04.jpg" alt="Carro numa rua pouco movimentada">
+                                <p class="recent-works-card-title">Quam neque phasellus</p>
+                                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
+                            </article>
+
+                            <article class="recent-works-card">
+                                <a class="imagem-link" href="imagens/fulls/05.jpg"></a>
+                                <img src="imagens/fulls/05.jpg" alt="Carro numa rua pouco movimentada">
+                                <p class="recent-works-card-title">Nunc enim commodo aliquet</p>
+                                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
+                            </article>
+
+                            <article class="recent-works-card">
+                                <a class="imagem-link" href="imagens/fulls/06.jpg"></a>
+                                <img src="imagens/fulls/06.jpg" alt="Carro numa rua pouco movimentada">
+                                <p class="recent-works-card-title">Risus ornare lacinia</p>
+                                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat</p>
+                            </article>
+                    </div>
+
+            </div> <!--row-->         
             <a href="#" title="Veja Mais" class="button-default">Veja Portifólio completo</a>
       </section>
 
@@ -132,10 +140,7 @@
                       </address>
                     </div>
             </div><!--row-->
-
-        
-          
-        
+             
 
       </section>
       
@@ -392,8 +397,8 @@
             <label for="msg">Mensagem</label>
             <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
 
-            <input type="submit" class="button-default" value="Enviar">   
-            <input type="reset" class="button-default-stroke" value="Limpar">           
+            <input type="submit" class="button-default button-default-big" value="Enviar">   
+            <input type="reset" class="button-default button-default-stroke button-default-big" value="Limpar">           
 
 
       </section>
