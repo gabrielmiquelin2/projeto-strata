@@ -6,7 +6,4 @@ Acesse o link e teste o projeto:https://gabrielmiquelin2.github.io/projeto-strat
 
 Para desenvolver esse projeto eu utilize:HTML5e CSS3
 
-Desafios que tive:
-=======
 
->>>>>>> 755c412e80d28444c6427d41d37646c546decea6
